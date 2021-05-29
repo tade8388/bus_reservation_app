@@ -1,3 +1,4 @@
+import 'package:bus_reservation_app/bus/journey/trip.dart';
 import 'package:flutter/material.dart';
 // import 'package:flutter_svg/flutter_svg.dart';
 
@@ -55,7 +56,12 @@ class _MainHomeState extends State<MainHome> {
                 'Buy Ticket',
                 style: TextStyle(fontSize: 18),
               ),
-              onTap: () {},
+              onTap: () {
+                Navigator.push(
+                  context,
+                  new MaterialPageRoute(builder: (context) => Trip()),
+                );
+              },
             ),
             ListTile(
               leading: Icon(Icons.qr_code_sharp),

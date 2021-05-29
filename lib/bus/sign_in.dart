@@ -1,4 +1,4 @@
-import 'package:bus_reservation_app/bus/main_home.dart';
+import 'main_home.dart';
 import 'package:bus_reservation_app/bus/sign_up.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
