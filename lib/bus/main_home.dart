@@ -1,4 +1,5 @@
 import 'package:bus_reservation_app/bus/journey/trip.dart';
+import 'package:bus_reservation_app/qrcode/qr_scaner.dart';
 import 'package:flutter/material.dart';
 import '../qrcode/qr_codeGenerator.dart';
 // import 'package:flutter_svg/flutter_svg.dart';
@@ -260,13 +261,5 @@ class _MainHomeState extends State<MainHome> {
         ),
       ),
     );
-  }
-
-  Widget buildMenuItem({
-    String text,
-    IconData icon,
-  }) {
-    final color = Colors.black;
-    return ListTile();
   }
 }
